@@ -3,7 +3,6 @@ package com.jetictors.futures.kotlin_dagger2
 import android.annotation.SuppressLint
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log.e
 import com.jetictors.futures.kotlin_dagger2.bean.Cloth
 import com.jetictors.futures.kotlin_dagger2.bean.Clothes
 import com.jetictors.futures.kotlin_dagger2.bean.Shoe
@@ -13,7 +12,6 @@ import com.jetictors.futures.kotlin_dagger2.di.qualifier.BlueQualifier
 import com.jetictors.futures.kotlin_dagger2.di.qualifier.GreenQualifier
 import kotlinx.android.synthetic.main.activity_main.*
 import javax.inject.Inject
-import javax.inject.Named
 
 class MainActivity : AppCompatActivity() {
 

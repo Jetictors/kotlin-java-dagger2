@@ -9,13 +9,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+        <activity android:name=".act.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+
         </activity>
+
+        <activity android:name=".act.BasisActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/btn_tx_basis"/>
+
+        <activity android:name=".act.ConstructorActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/btn_tx_constructor"/>
+
+        <activity android:name=".act.QualifierActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/btn_tx_qualifier"/>
+
+        <activity android:name=".act.NamedActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/btn_tx_named"/>
+
+        <activity android:name=".act.SubComponentActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/btn_tx_sub"/>
+
     </application>
 
 </manifest>
