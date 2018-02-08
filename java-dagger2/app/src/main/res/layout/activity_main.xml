@@ -23,6 +23,11 @@
                 android:text="@string/btn_tx_basis" />
 
             <TextView
+                android:id="@+id/btn_basis_other"
+                style="@style/CommonTextView"
+                android:text="@string/btn_tx_basis_other" />
+
+            <TextView
                 android:id="@+id/btn_constructor"
                 style="@style/CommonTextView"
                 android:text="@string/btn_tx_constructor" />
@@ -41,6 +46,21 @@
                 android:id="@+id/btn_sub"
                 style="@style/CommonTextView"
                 android:text="@string/btn_tx_sub"/>
+
+            <TextView
+                android:id="@+id/btn_scope"
+                style="@style/CommonTextView"
+                android:text="@string/btn_tx_scope"/>
+
+            <TextView
+                android:id="@+id/btn_singleton"
+                style="@style/CommonTextView"
+                android:text="@string/btn_tx_singleton"/>
+
+            <TextView
+                android:id="@+id/btn_dependencies"
+                style="@style/CommonTextView"
+                android:text="@string/btn_tx_dependencies"/>
 
         </LinearLayout>
 

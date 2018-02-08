@@ -50,6 +50,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_basis:
                 intent.setClass(this,BasisActivity.class);
                 break;
+            case R.id.btn_basis_other:
+//                intent.setClass(this,BasisActivity.class);
+                break;
             case R.id.btn_constructor:
                 intent.setClass(this,ConstructorActivity.class);
                 break;
@@ -61,6 +64,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_sub:
                 intent.setClass(this, SubComponentActivity.class);
+                break;
+            case R.id.btn_scope:
+//                intent.setClass(this, SubComponentActivity.class);
+                break;
+            case R.id.btn_singleton:
+//                intent.setClass(this, SubComponentActivity.class);
+                break;
+            case R.id.btn_dependencies:
+//                intent.setClass(this, SubComponentActivity.class);
                 break;
             default:
                 break;

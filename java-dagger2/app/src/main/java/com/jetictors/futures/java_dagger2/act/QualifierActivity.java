@@ -6,11 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.jetictors.futures.java_dagger2.R;
-import com.jetictors.futures.java_dagger2.component.DaggerQualifierComponent;
+import com.jetictors.futures.java_dagger2.di.component.DaggerQualifierComponent;
 import com.jetictors.futures.java_dagger2.entity.Cloth;
-import com.jetictors.futures.java_dagger2.modules.QualifierModule;
-import com.jetictors.futures.java_dagger2.qualifier.BlackQualifier;
-import com.jetictors.futures.java_dagger2.qualifier.GrayQualifier;
+import com.jetictors.futures.java_dagger2.di.modules.QualifierModule;
+import com.jetictors.futures.java_dagger2.di.qualifier.BlackQualifier;
+import com.jetictors.futures.java_dagger2.di.qualifier.GrayQualifier;
 
 import javax.inject.Inject;
 

@@ -3,14 +3,67 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:gravity="center">
+    android:orientation="vertical"
+    android:padding="12dp">
 
-    <TextView
-        android:id="@+id/tv_value"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textColor="@color/colorAccent"
-        android:textSize="25sp"/>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/btn_basis"
+                style="@style/CommonTextView"
+                android:text="@string/btn_tx_basis" />
+
+            <TextView
+                android:id="@+id/btn_basis_other"
+                style="@style/CommonTextView"
+                android:text="@string/btn_tx_basis_other" />
+
+            <TextView
+                android:id="@+id/btn_constructor"
+                style="@style/CommonTextView"
+                android:text="@string/btn_tx_constructor" />
+
+            <TextView
+                android:id="@+id/btn_qualifier"
+                style="@style/CommonTextView"
+                android:text="@string/btn_tx_qualifier" />
+
+            <TextView
+                android:id="@+id/btn_named"
+                style="@style/CommonTextView"
+                android:text="@string/btn_tx_named" />
+
+            <TextView
+                android:id="@+id/btn_sub"
+                style="@style/CommonTextView"
+                android:text="@string/btn_tx_sub"/>
+
+            <TextView
+                android:id="@+id/btn_scope"
+                style="@style/CommonTextView"
+                android:text="@string/btn_tx_scope"/>
+
+            <TextView
+                android:id="@+id/btn_singleton"
+                style="@style/CommonTextView"
+                android:text="@string/btn_tx_singleton"/>
+
+            <TextView
+                android:id="@+id/btn_dependencies"
+                style="@style/CommonTextView"
+                android:text="@string/btn_tx_dependencies"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
 
 </LinearLayout>

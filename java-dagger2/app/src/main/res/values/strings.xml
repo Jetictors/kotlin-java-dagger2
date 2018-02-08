@@ -2,9 +2,13 @@
     <string name="app_name">java-dagger2</string>
 
     <string name="btn_tx_basis">基本使用</string>
+    <string name="btn_tx_basis_other">基本使用2</string>
     <string name="btn_tx_constructor">构造函数注解方式</string>
     <string name="btn_tx_qualifier">Qualifier注解</string>
     <string name="btn_tx_named">Named注解</string>
     <string name="btn_tx_sub">SubComponent注解</string>
+    <string name="btn_tx_scope">Scope注解</string>
+    <string name="btn_tx_singleton">Singleton注解（单列）</string>
+    <string name="btn_tx_dependencies">Dependencies组建依赖</string>
 
 </resources>

@@ -6,9 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.jetictors.futures.java_dagger2.R;
-import com.jetictors.futures.java_dagger2.component.DaggerBasisComponent;
+import com.jetictors.futures.java_dagger2.di.component.DaggerBasisComponent;
 import com.jetictors.futures.java_dagger2.entity.Cloth;
-import com.jetictors.futures.java_dagger2.modules.BasisModule;
+import com.jetictors.futures.java_dagger2.di.modules.BasisModule;
 
 import javax.inject.Inject;
 

@@ -6,9 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.jetictors.futures.java_dagger2.R;
-import com.jetictors.futures.java_dagger2.component.DaggerNamedComponent;
+import com.jetictors.futures.java_dagger2.di.component.DaggerNamedComponent;
 import com.jetictors.futures.java_dagger2.entity.Cloth;
-import com.jetictors.futures.java_dagger2.modules.NamedModule;
+import com.jetictors.futures.java_dagger2.di.modules.NamedModule;
 
 import javax.inject.Inject;
 import javax.inject.Named;

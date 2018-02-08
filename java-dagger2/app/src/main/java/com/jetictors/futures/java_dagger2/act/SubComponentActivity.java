@@ -6,11 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.jetictors.futures.java_dagger2.R;
-import com.jetictors.futures.java_dagger2.component.DaggerParentComponent;
+import com.jetictors.futures.java_dagger2.di.component.DaggerParentComponent;
 import com.jetictors.futures.java_dagger2.entity.ChildEntity;
 import com.jetictors.futures.java_dagger2.entity.ParentEntity;
-import com.jetictors.futures.java_dagger2.modules.ChildModule;
-import com.jetictors.futures.java_dagger2.modules.ParentModule;
+import com.jetictors.futures.java_dagger2.di.modules.ChildModule;
+import com.jetictors.futures.java_dagger2.di.modules.ParentModule;
 
 import javax.inject.Inject;
 
