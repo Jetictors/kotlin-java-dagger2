@@ -28,7 +28,9 @@ class ConstructorActivity : AppCompatActivity() {
         initInject()
 
         val builder = StringBuilder("")
-        builder.append("Dagger2构造函数方式注入方式：").append("\n").append("我是   ").append(pant.toString())
+        builder.append("Dagger2构造函数方式注入方式：")
+                .append("\n").append("我是 ")
+                .append(pant.toString())
         tv_value.text = builder.toString()
     }
 

@@ -36,9 +36,15 @@ class NamedActivity : AppCompatActivity() {
         initInject()
 
         val builder = StringBuilder("")
-        builder.append("Named注解：").append("\n")
-                .append("我是   ").append(blueCloth.color).append("   的衣服")
-                .append("\n").append("我是   ").append(greenCloth.color).append("   的衣服")
+        builder.append("Named注解：")
+                .append("\n")
+                .append("我是 ")
+                .append(blueCloth.color)
+                .append(" 的衣服")
+                .append("\n")
+                .append("我是 ")
+                .append(greenCloth.color)
+                .append(" 的衣服")
         tv_value.text = builder.toString()
     }
 

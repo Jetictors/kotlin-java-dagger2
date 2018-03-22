@@ -3,6 +3,7 @@
     package="com.jetictors.futures.java_dagger2">
 
     <application
+        android:name=".app.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -25,6 +26,10 @@
             android:screenOrientation="portrait"
             android:label="@string/btn_tx_basis"/>
 
+        <activity android:name=".act.BasisOtherActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/btn_tx_basis_other"/>
+
         <activity android:name=".act.ConstructorActivity"
             android:screenOrientation="portrait"
             android:label="@string/btn_tx_constructor"/>
@@ -40,6 +45,42 @@
         <activity android:name=".act.SubComponentActivity"
             android:screenOrientation="portrait"
             android:label="@string/btn_tx_sub"/>
+
+        <activity android:name=".act.SingletonActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/btn_tx_singleton"/>
+
+        <activity android:name=".act.scope.ScopeActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/btn_tx_scope"/>
+
+        <activity android:name=".act.scope.ScopeFirstActivity"
+            android:screenOrientation="portrait"
+            android:label="ScopeFirstActivity"/>
+
+        <activity android:name=".act.scope.ScopeSecondActivity"
+            android:screenOrientation="portrait"
+            android:label="ScopeSecondActivity"/>
+
+        <activity android:name=".act.scope.ScopeOtherActivity"
+            android:screenOrientation="portrait"
+            android:label="ScopeOtherActivity"/>
+
+        <activity android:name=".act.dependencies.DependenciesActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/btn_tx_dependencies"/>
+
+        <activity android:name=".act.dependencies.DependenciesFirstActivity"
+            android:screenOrientation="portrait"
+            android:label="DependenciesFirstActivity"/>
+
+        <activity android:name=".act.dependencies.DependenciesSecondActivity"
+            android:screenOrientation="portrait"
+            android:label="DependenciesSecondActivity"/>
+
+        <activity android:name=".act.dependencies.DependenciesOtherActivity"
+            android:screenOrientation="portrait"
+            android:label="DependenciesOtherActivity"/>
 
     </application>
 

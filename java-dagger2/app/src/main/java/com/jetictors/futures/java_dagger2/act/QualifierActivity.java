@@ -42,9 +42,16 @@ public class QualifierActivity extends AppCompatActivity{
         initInject();
 
         StringBuilder builder = new StringBuilder("");
-        builder.append("Qualifier注解：").append("\n")
-                .append("我是   ").append(blackCloth.getColor()).append("   的衣服")
-                .append("\n").append("我是   ").append(grayCloth.getColor()).append("   的衣服");
+        builder.append("Qualifier注解：")
+                .append("\n")
+                .append("我是 ")
+                .append(blackCloth.getColor())
+                .append(" 的衣服")
+                .append("\n")
+                .append("我是 ")
+                .append(grayCloth.getColor())
+                .append(" 的衣服");
+
         mTvValue.setText(builder.toString());
     }
 

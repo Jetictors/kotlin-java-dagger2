@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.act_basis.*
 import javax.inject.Inject
 
 /**
- * @描述    :    dagger基本使用
+ * @描述    :    Dagger2基本使用
  * @author  :   Jetictors
  * @time    :   2018/2/8 18:24
  * @version :   v1.0.1
@@ -26,7 +26,12 @@ class BasisActivity : AppCompatActivity() {
         initInject()
 
         val builder = StringBuilder("")
-        builder.append("Dagger2最基本的用法：").append("\n").append("我是   ").append(cloth.color).append("   的衣服")
+        builder.append("Dagger2最基本的用法：")
+                .append("\n")
+                .append("我是   ")
+                .append(cloth.color)
+                .append("   的衣服")
+
         tv_value.text = builder.toString()
     }
 

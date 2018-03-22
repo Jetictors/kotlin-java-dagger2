@@ -35,7 +35,12 @@ public class BasisActivity extends AppCompatActivity{
         initInject();
 
         StringBuilder builder = new StringBuilder("");
-        builder.append("Dagger2最基本的用法：").append("\n").append("我是   ").append(cloth.getColor()).append("   的衣服");
+        builder.append("Dagger2最基本的用法：")
+                .append("\n")
+                .append("我是 ")
+                .append(cloth.getColor())
+                .append(" 的衣服");
+
         mTvValue.setText(builder.toString());
     }
 

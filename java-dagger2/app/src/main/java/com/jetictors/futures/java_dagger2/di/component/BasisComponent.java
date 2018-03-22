@@ -8,7 +8,7 @@ import dagger.Component;
 /**
  * @author :   Jetictors
  * @version :   v1.0.1
- * @描述 :    最基础用法之Compontent
+ * @描述 :    最基础用法之Component
  * @time :   2018/2/7 14:47
  */
 

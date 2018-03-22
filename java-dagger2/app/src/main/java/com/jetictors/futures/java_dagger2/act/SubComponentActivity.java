@@ -40,7 +40,8 @@ public class SubComponentActivity extends AppCompatActivity {
         initInject();
 
         StringBuilder builder = new StringBuilder("");
-        builder.append("SubComponent注解：").append("\n")
+        builder.append("SubComponent注解：")
+                .append("\n")
                 .append(parentEntity.getParentInfo())
                 .append("\n")
                 .append(childEntity.getChildInfo());

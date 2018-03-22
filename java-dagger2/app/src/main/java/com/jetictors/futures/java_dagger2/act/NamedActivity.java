@@ -42,9 +42,17 @@ public class NamedActivity extends AppCompatActivity {
         initInject();
 
         StringBuilder builder = new StringBuilder("");
-        builder.append("Named注解：").append("\n")
-                .append("我是   ").append(blueCloth.getColor()).append("   的衣服")
-                .append("\n").append("我是   ").append(greenCloth.getColor()).append("   的衣服");
+
+        builder.append("Named注解：")
+                .append("\n")
+                .append("我是 ")
+                .append(blueCloth.getColor())
+                .append(" 的衣服")
+                .append("\n")
+                .append("我是 ")
+                .append(greenCloth.getColor())
+                .append(" 的衣服");
+
         mTvValue.setText(builder.toString());
     }
 

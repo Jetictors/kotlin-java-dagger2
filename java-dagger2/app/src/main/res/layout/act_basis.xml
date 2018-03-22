@@ -4,14 +4,16 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center">
+    android:gravity="center"
+    android:paddingRight="12dp"
+    android:paddingLeft="12dp">
 
     <TextView
         android:id="@+id/tv_value"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
-        android:gravity="center"
-        android:textSize="20sp"/>
+        android:gravity="center_vertical"
+        android:textSize="15sp"/>
 
 </LinearLayout>

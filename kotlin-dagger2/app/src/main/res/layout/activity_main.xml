@@ -23,14 +23,14 @@
                 android:text="@string/btn_tx_basis" />
 
             <TextView
-                android:id="@+id/btn_basis_other"
-                style="@style/CommonTextView"
-                android:text="@string/btn_tx_basis_other" />
-
-            <TextView
                 android:id="@+id/btn_constructor"
                 style="@style/CommonTextView"
                 android:text="@string/btn_tx_constructor" />
+
+            <TextView
+                android:id="@+id/btn_basis_other"
+                style="@style/CommonTextView"
+                android:text="@string/btn_tx_basis_other" />
 
             <TextView
                 android:id="@+id/btn_qualifier"

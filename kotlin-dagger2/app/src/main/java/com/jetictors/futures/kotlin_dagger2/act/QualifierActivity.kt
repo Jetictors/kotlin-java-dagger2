@@ -35,9 +35,16 @@ class QualifierActivity : AppCompatActivity() {
         initInject()
 
         val builder = StringBuilder("")
-        builder.append("Qualifier注解：").append("\n")
-                .append("我是   ").append(blackCloth.color).append("   的衣服")
-                .append("\n").append("我是   ").append(grayCloth.color).append("   的衣服")
+        builder.append("Qualifier注解：")
+                .append("\n")
+                .append("我是 ")
+                .append(blackCloth.color)
+                .append(" 的衣服")
+                .append("\n")
+                .append("我是 ")
+                .append(grayCloth.color)
+                .append(" 的衣服")
+
         tv_value.text = builder.toString()
     }
 
